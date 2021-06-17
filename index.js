@@ -19,3 +19,4 @@ function jadenCase(text) {
         capitalizeEachWord(word)
         .join('')})
     }
+console.log(jadenCase(quote));
