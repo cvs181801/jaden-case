@@ -11,7 +11,7 @@ const quote = "happy little critters abound.";
 
 function jadenCase(text) {
     //var text = randomText.value;
-    return text.split('').map(capitalize).join('');
+    return text.split('').map(array, text.toUpperCase()).join('');
 }
 
 console.log(jadenCase(quote));
