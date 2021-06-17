@@ -17,6 +17,8 @@ function jadenCase(text) {
     //var text = randomText.value;
     return text.split('').forEach((word)=> {
         capitalizeEachWord(word)
-        .join('')})
+        })
     }
 console.log(jadenCase(quote));
+
+//.join('')
