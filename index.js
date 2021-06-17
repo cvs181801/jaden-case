@@ -18,3 +18,4 @@ function jadenCase(text) {
     return text.split('').forEach((word)=> {
         capitalizeEachWord(word)
         .join('')})
+    }
