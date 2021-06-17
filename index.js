@@ -9,17 +9,12 @@
 
 const quote = "happy little critters abound.";
 
-// function jadenCase(text) {
-//     //var text = randomText.value;
-//     return text.split('').join('');
-// }
-
-// console.log(jadenCase(quote));
-
-//.map(text.toUpperCase())
-
 function capitalizeEachWord(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-console.log(capitalizeEachWord(quote));
+function jadenCase(text) {
+    //var text = randomText.value;
+    return text.split('').forEach((word)=> {
+        capitalizeEachWord(word)
+        .join('')})
