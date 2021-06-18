@@ -9,16 +9,30 @@
 
 const quote = "happy little critters abound.";
 
-function capitalizeEachWord(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-}
+// function capitalizeEachWord(string) {
+//     return string.charAt(0).toUpperCase() + string.slice(1);
+// }
 
-function jadenCase(text) {
-    //var text = randomText.value;
-    return text.split('').forEach((word)=> {
-        capitalizeEachWord(word)
-        })
-    }
-console.log(jadenCase(quote));
+// function jadenCase(text) {
+//     //var text = randomText.value;
+//     return text.split('').forEach((word)=> {
+//         capitalizeEachWord(word)
+//         })
+//     }
+// console.log(jadenCase(quote));
 
 //.join('')
+
+function capitalizeAll(text) {
+    return text
+    .toLowerCase()
+    .split('')
+    .map(function(word) {
+        console.log("First capital letter" + word[0]);
+        console.log("remaining letters:" + word.substring(1));
+        return word[0].toUpperCase + word.substring(1);
+    }).join(' ');
+
+}
+
+console.log(capitalizeAll(quote));
