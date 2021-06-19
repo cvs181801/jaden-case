@@ -26,9 +26,9 @@ const quote = "happy little critters abound.";
 function capitalizeAll(text) {
     return text
     .toLowerCase()
-    .split(' ');
-    //.forEach((word) => {
-        //word[0].toUpperCase}) //+ word.substring(1));
+    .split(' ')
+    .forEach((word) => {
+        word.charAt(0).toUpperCase()});//+ word.substring(1));
         //word.charAt(0).toUpperCase()+ word.slice(1).toLowerCase());
          
     //.join(' ');
