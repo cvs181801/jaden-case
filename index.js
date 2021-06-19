@@ -27,11 +27,11 @@ function capitalizeAll(text) {
     return text
     .toLowerCase()
     .split(' ')
-    .map(function(word) {
+    .map(word => 
         //console.log("First capital letter " + word[0]);
         //console.log("remaining letters: " + word.substring(1));
-        return word[0].toUpperCase; //+ word.substring(1);
-    })
+        word[0].toUpperCase + word.substring(1));
+    
     //.join(' ');
 
 }
