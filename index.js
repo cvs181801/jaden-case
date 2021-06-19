@@ -1,6 +1,6 @@
 //grab the elements
 
-//const randomText = document.getElementById("textBox");
+const randomText = document.getElementById("textBox");
 // const goBtn = document.getElementById("go-btn");
  let resultDiv = document.getElementById("parentDiv");
 // const result = document.createElement("p");
@@ -25,7 +25,7 @@ let newArray = [];
 //.join('')
 
 function capitalizeAll(text) {
-    return text
+    return randomText
     .toLowerCase()
     .split(' ')
     .forEach((word) => {
@@ -53,5 +53,5 @@ function capitalizeAll(text) {
      
 }
 
-console.log(capitalizeAll(quote));
+console.log(capitalizeAll(randomText.value));
 
