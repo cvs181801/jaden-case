@@ -30,15 +30,15 @@ function capitalizeAll(text) {
     .split(' ')
     .forEach((word) => {
         newArray.push(word.charAt(0).toUpperCase() + word.substring(1));
-        //newArray.push(word);
+        newArray.push(word);
         //console.log(newArray);
-        // let resultDiv = document.getElementById("parentDiv");
-        // resultDiv.innerHTML="";
-        //     for (let i = 0; i < newArray.length; i++) {
-        //         const sentence = document.createElement('span')
-        //         sentence.textContent = newArray[i]
-        //         resultDiv.append(sentence)
-         })
+        resultDiv = document.getElementById("parentDiv");
+         resultDiv.innerHTML="";
+             for (let i = 0; i < newArray.length; i++) {
+                 const sentence = document.createElement('span')
+                 sentence.textContent = newArray[i]
+                 resultDiv.append(sentence)
+         }})
         // function renderNewSentence() {
         //     parentDiv.innerHTML="";
         //     for (let i = 0; i < newArray.length; i++) {
