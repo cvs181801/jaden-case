@@ -29,7 +29,7 @@ function capitalizeAll(text) {
     .split(' ')
     .forEach((word) => {
         console.log(word.charAt(0).toUpperCase() + word.substring(1));
-        console.log(word);
+        console.log(word[i]);
         })//.join(' ');
         //word.charAt(0).toUpperCase()+ word.slice(1).toLowerCase());
         
