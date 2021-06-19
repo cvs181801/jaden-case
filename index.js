@@ -28,10 +28,8 @@ function capitalizeAll(text) {
     .toLowerCase()
     .split(' ')
     .forEach(word =>
-        word[0].toUpperCase + word.substring(1));
-        //console.log("First capital letter " + word[0]);
-        //console.log("remaining letters: " + word.substring(1));
-        
+        //word[0].toUpperCase + word.substring(1));
+        word.charAt(0).toUpperCase()+ word.slice(1).toLowerCase());
          
     //.join(' ');
         
