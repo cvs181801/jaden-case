@@ -26,7 +26,7 @@ const quote = "happy little critters abound.";
 function capitalizeAll(text) {
     return text
     .toLowerCase()
-    .split('')
+    .split(' ')
     .map(function(word) {
         console.log("First capital letter " + word[0]);
         console.log("remaining letters: " + word.substring(1));
