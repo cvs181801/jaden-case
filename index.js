@@ -8,6 +8,7 @@
 // create a way for the words in any random sentence to be automatically capitalized.
 
 const quote = "happy little critters abound";
+let newArray = [];
 
 // function capitalizeEachWord(string) {
 //     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -29,7 +30,8 @@ function capitalizeAll(text) {
     .split(' ')
     .forEach((word, i) => {
         console.log(word.charAt(0).toUpperCase() + word.substring(1));
-        console.log(word[i]);
+        newArray.push(word);
+        console.log(newArray);
         })//.join(' ');
         //word.charAt(0).toUpperCase()+ word.slice(1).toLowerCase());
         
