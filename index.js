@@ -28,10 +28,11 @@ function capitalizeAll(text) {
     .toLowerCase()
     .split(' ')
     .forEach((word) => {
-        console.log(word.charAt(0).toUpperCase() + word.substring(1))
+        console.log(word.charAt(0).toUpperCase() + word.substring(1));
+        console.log(word);
         })//.join(' ');
         //word.charAt(0).toUpperCase()+ word.slice(1).toLowerCase());
-        //
+        
 }
 
 console.log(capitalizeAll(quote));
