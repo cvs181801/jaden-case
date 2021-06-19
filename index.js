@@ -2,7 +2,7 @@
 
 //const randomText = document.getElementById("textBox");
 // const goBtn = document.getElementById("go-btn");
- const resultDiv = document.getElementById("parentDiv");
+ let resultDiv = document.getElementById("parentDiv");
 // const result = document.createElement("p");
 
 // create a way for the words in any random sentence to be automatically capitalized.
@@ -32,11 +32,12 @@ function capitalizeAll(text) {
         newArray.push(word.charAt(0).toUpperCase() + word.substring(1));
         //newArray.push(word);
         console.log(newArray);
-        parentDiv.innerHTML="";
+        //let resultDiv = document.getElementById("parentDiv");
+        resultDiv.innerHTML="";
             for (let i = 0; i < newArray.length; i++) {
                 const sentence = document.createElement('span')
                 sentence.textContent = newArray[i]
-                parentDiv.append(sentence)
+                resultDiv.append(sentence)
         }})
         // function renderNewSentence() {
         //     parentDiv.innerHTML="";
