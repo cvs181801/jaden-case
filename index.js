@@ -55,8 +55,9 @@ function capitalizeAll(text) {
 
 //console.log(capitalizeAll(randomText.value));
 
-goButton.addEventListener('click', function(e) {
+goBtn.addEventListener('click', function(e) {
     e.preventDefault();
+    console.log("the event listener worked");
     return (capitalizeAll(randomText.value));
 })
 
