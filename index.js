@@ -27,7 +27,7 @@ function capitalizeAll(text) {
     return text
     .toLowerCase()
     .split(' ')
-    .forEach((word) => {
+    .forEach((word, i) => {
         console.log(word.charAt(0).toUpperCase() + word.substring(1));
         console.log(word[i]);
         })//.join(' ');
