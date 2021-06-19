@@ -25,7 +25,7 @@ let newArray = [];
 //.join('')
 
 function capitalizeAll(text) {
-    return randomText
+    return randomText.value
     .toLowerCase()
     .split(' ')
     .forEach((word) => {
