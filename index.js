@@ -30,7 +30,7 @@ function capitalizeAll(text) {
     .split(' ')
     .forEach((word) => {
         newArray.push(word.charAt(0).toUpperCase() + word.substring(1));
-        newArray.push(word);
+        //newArray.push(word);
         //console.log(newArray);
         resultDiv = document.getElementById("parentDiv");
          resultDiv.innerHTML="";
