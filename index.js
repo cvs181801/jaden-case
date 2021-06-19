@@ -27,13 +27,13 @@ function capitalizeAll(text) {
     return text
     .toLowerCase()
     .split(' ')
-    .map(word => 
+    .map(word, i => 
         //console.log("First capital letter " + word[0]);
         //console.log("remaining letters: " + word.substring(1));
-        word[0].toUpperCase + word.substring(1));
-    
+        word[i].toUpperCase + word.substring(i));
+         
     //.join(' ');
-
+        
 }
 
 console.log(capitalizeAll(quote));
