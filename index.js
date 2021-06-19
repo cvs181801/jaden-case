@@ -35,7 +35,7 @@ function capitalizeAll(text) {
         resultDiv = document.getElementById("parentDiv");
          resultDiv.innerHTML="";
              for (let i = 0; i < newArray.length; i++) {
-                 const sentence = document.createElement('span')
+                 const sentence = document.createElement('p')
                  sentence.textContent = newArray[i]
                  resultDiv.append(sentence)
          }})
