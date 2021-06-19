@@ -1,13 +1,13 @@
 //grab the elements
 
 const randomText = document.getElementById("textBox");
-// const goBtn = document.getElementById("go-btn");
+ const goBtn = document.getElementById("go-btn");
  let resultDiv = document.getElementById("parentDiv");
 // const result = document.createElement("p");
 
 // create a way for the words in any random sentence to be automatically capitalized.
 
-const quote = "happy little critters abound";
+//const quote = "happy little critters abound";
 let newArray = [];
 
 // function capitalizeEachWord(string) {
@@ -25,7 +25,7 @@ let newArray = [];
 //.join('')
 
 function capitalizeAll(text) {
-    return randomText.value
+    return text
     .toLowerCase()
     .split(' ')
     .forEach((word) => {
@@ -35,9 +35,9 @@ function capitalizeAll(text) {
         resultDiv = document.getElementById("parentDiv");
          resultDiv.innerHTML="";
              for (let i = 0; i < newArray.length; i++) {
-                 const sentence = document.createElement('p')
-                 sentence.textContent = newArray[i]
-                 resultDiv.append(sentence)
+                 const aWord = document.createElement('p')
+                 aWord.textContent = newArray[i]
+                 resultDiv.append(aWord)
          }})
         // function renderNewSentence() {
         //     parentDiv.innerHTML="";
@@ -53,5 +53,13 @@ function capitalizeAll(text) {
      
 }
 
-console.log(capitalizeAll(randomText.value));
+//console.log(capitalizeAll(randomText.value));
+
+goButton.addEventListener('click', function(e) {
+    e.preventDefault();
+    return (capitalizeAll(randomText.value);
+})
+
+
+
 
