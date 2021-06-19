@@ -32,7 +32,7 @@ function capitalizeAll(text) {
         newArray.push(word.charAt(0).toUpperCase() + word.substring(1));
         //newArray.push(word);
         console.log(newArray);
-        //let resultDiv = document.getElementById("parentDiv");
+        let resultDiv = document.getElementById("parentDiv");
         resultDiv.innerHTML="";
             for (let i = 0; i < newArray.length; i++) {
                 const sentence = document.createElement('span')
