@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: skyblue;
+    background-color: white;
     background: url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/jaden.png),
                       url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/lightclouds.jpg);
     /*background-repeat: no-repeat;*/
@@ -22,7 +22,7 @@ h1 {
     margin: 0 auto;
     text-align: center;
     color: white;
-    margin-bottom: 5em;
+    margin-bottom: 7em;
 }
 
 .container {
