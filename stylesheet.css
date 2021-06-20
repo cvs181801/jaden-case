@@ -23,6 +23,7 @@ h1 {
     text-align: center;
     color: navy;
     margin-bottom: 7em;
+    background-color: skyblue;
 }
 
 .container {
@@ -35,7 +36,7 @@ h1 {
     font-size: 1.5rem;
     justify-content: center;
     margin: 0 auto;
-    border: 2px solid black;
+    background-color: skyblue;
 }
 
 div {
