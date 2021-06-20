@@ -23,7 +23,7 @@ h1 {
     text-align: center;
     color: navy;
     margin-bottom: 7em;
-    background-color: skyblue;
+    
 }
 
 .container {
@@ -36,7 +36,7 @@ h1 {
     font-size: 1.5rem;
     justify-content: center;
     margin: 0 auto;
-    background-color: skyblue;
+    
 }
 
 div {
@@ -44,6 +44,7 @@ div {
     letter-spacing: .2rem;
     padding: 1em;
     font-size: 2rem;
+    background-color: skyblue;
 }
 
 /*img {
