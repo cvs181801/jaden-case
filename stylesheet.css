@@ -5,25 +5,23 @@ html {
 
 #parentDiv {
     border: 2px solid magenta;
-    /*flex-direction: column;*/
+    display: flex;
     font-size: 1.5rem;
     justify-content: center;
     margin: 0 auto;
-    
-
 }
 
 div {
     /*border: 2px solid magenta;*/
     color: navy;
     letter-spacing: .2rem;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 #underParentDiv {
     border: 2px solid magenta; 
-    width: 2em;
-    height: 2em;
+    width: 30em;
+    height: 30em;
     display: flex;
-    flex-direction: column;
+    
 }
