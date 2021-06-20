@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
+    background-blend-mode: screen;
     /*opacity: .5;
     object-fit: cover;
     width: 100%;
