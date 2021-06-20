@@ -5,7 +5,12 @@ html {
 body {
     background-color: skyblue;
     background-image: url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/Philosophical+jaden+smith+i+found+the+1920x1080+of+the+back_8d348b_5228590.png);
-    
+    width: 100%;
+    height: auto;
+    opacity: .5;
+    object-fit: cover;
+    width: 100%;
+    max-height: 850px;
 }   
     
 
