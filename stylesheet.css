@@ -6,7 +6,7 @@ body {
     background-color: skyblue;
     background-image: url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/Philosophical+jaden+smith+i+found+the+1920x1080+of+the+back_8d348b_5228590.png),
                       url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/sky.jpg);
-    background-position: 50% -5%; /*top center; */
+    background-position: -5% 0%; /*top center; */
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
