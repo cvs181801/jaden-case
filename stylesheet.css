@@ -2,6 +2,15 @@ html {
     width: 100%;
 }
 
+body {
+    background-color: skyblue;
+    background-image: url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/Philosophical+jaden+smith+i+found+the+1920x1080+of+the+back_8d348b_5228590.png);
+}   
+    
+
+h1 {
+    margin: 0 auto;
+}
 
 #parentDiv {
     border: 2px solid blue;
