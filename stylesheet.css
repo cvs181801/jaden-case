@@ -16,4 +16,6 @@ p {
 
 #underParentDiv {
     border: 2px solid magenta; 
+    width: 2em;
+    height: 2em;
 }
