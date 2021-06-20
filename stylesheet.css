@@ -1,8 +1,14 @@
+html {
+    width: 100%;
+}
+
+body {
+    display: flex;
+}
 
 
 #parentDiv {
     border: 2px solid magenta;
-    display: flex;
     flex-direction: column;
     font-size: 1.5rem;
     justify-content: center;
@@ -12,6 +18,8 @@
 p {
     /*border: 2px solid magenta;*/
     color: navy;
+    letter-spacing: .2rem;
+    text-align: right;
 }
 
 #underParentDiv {
