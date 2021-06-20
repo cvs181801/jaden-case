@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: skyblue;
-    background-image: url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/jaden.png),
+    background: url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/jaden.png),
                       url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/Sky-Background-14.jpg);
     /*background-repeat: no-repeat;*/
     width: 100%;
