@@ -9,7 +9,7 @@ body {
     /*background-repeat: no-repeat;*/
     width: 100%;
     height: 100%;
-    background-blend-mode: darken;
+    background-blend-mode: multiply;
     background-position: 50% 10%;
     /*opacity: .5;
     object-fit: cover;
