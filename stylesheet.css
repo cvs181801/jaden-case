@@ -12,6 +12,7 @@ body {
     height: 100%;
     background-blend-mode: screen;
     background-position: 50% 10%;
+    background-size: contain;
     /*opacity: .5;
     object-fit: cover;
     width: 100%;
@@ -36,8 +37,7 @@ h1 {
     display: flex;
     font-size: 1.5rem;
     justify-content: center;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 
 div {
