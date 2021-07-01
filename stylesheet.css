@@ -29,12 +29,11 @@ body {
     
 
 h1 {
-    margin: 0 auto;
+    margin: 5em auto 7em 0;
     text-align: center;
     color: navy;
-    margin-bottom: 7em;
     font-family: var(--ff-accent);
-    
+    font-weight: 700;
 }
 
 .container {
