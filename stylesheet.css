@@ -9,8 +9,8 @@ html {
 
 body {
     
-    background-image: url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/jaden.png);
-                      /*url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/lightclouds.jpg);*/
+    background-image: url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/jaden.png),
+                      url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/lightclouds.jpg);
     background-color: rgb(208, 232, 252);   
     background-blend-mode: multiply; 
     opacity: .8;              
