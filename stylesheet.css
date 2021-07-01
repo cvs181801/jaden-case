@@ -11,7 +11,7 @@ body {
     
     background-image: url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/jaden.png);
                       /*url(/Users/casvalkyriespicer/Documents/GitHub/jaden-case/images/lightclouds.jpg);*/
-    background-color: white;   
+    background-color: rgb(208, 232, 252);   
     background-blend-mode: multiply; 
     opacity: .8;              
     /*background-repeat: no-repeat;*/
